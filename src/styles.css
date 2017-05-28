@@ -1,7 +1,11 @@
 @import '~https://fonts.googleapis.com/icon?family=Material+Icons';
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 
-body {
+html, body {
+  min-height: 100vh;
   margin: 0;
+}
+
+body {
   font-family: Roboto, sans-serif;
 }
