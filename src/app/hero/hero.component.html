@@ -1,3 +1,33 @@
-<div class="hero">
-  
+<div class="hero" (window:scroll)="didScroll()">
+  <md-card class="hero-card animated rollIn">
+    <md-card-content>
+      <div class="title">
+        <h1>Jonatan</h1>
+        <h1>Cardona</h1>
+        <h1>Casas</h1>
+      </div>
+      <div class="content">
+        <span>Medellín, Colombia</span>
+        <span>
+          <a href="mailto:jace.casas@gmail.com">
+            jace.casas@gmail.com
+          </a>
+        </span>
+        <span>
+          <a href="tel:+57 319 786-7361">
+            +57 319 786-7361
+          </a>
+        </span>
+      </div>
+    </md-card-content>
+  </md-card>
+
+  <div
+    class="call-to-scroll animated"
+    [ngClass]="{
+      'bounce infinite': !scrolled,
+      'bounceOutDown': scrolled
+    }">
+    <md-icon>&#xE313;</md-icon>
+  </div>
 </div>

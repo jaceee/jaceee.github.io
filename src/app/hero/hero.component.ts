@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
+  public scrolled = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public didScroll() {
+    this.scrolled = true;
   }
 
 }

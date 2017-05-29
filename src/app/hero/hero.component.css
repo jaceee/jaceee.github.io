@@ -1,7 +1,91 @@
 .hero {
+  display: -webkit-flex;
+  display: flex;
+
   width: 100%;
   height: 100vh;
 
-  background-position: center bottom;
-  background-size: 100% auto;
+  background-color: #222222;
+
+  -webkit-justify-content: center;
+  justify-content:         center;
+
+  -webkit-align-items: center;
+  align-items:         center;
+
+  -moz-box-shadow:    inset 0 -10px 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow:         inset 0 -10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.hero-card {
+  /*width: 400px;*/
+}
+
+.hero-card {
+  text-align: center;
+}
+
+.hero-card md-card-content {
+  padding: 25px;
+}
+
+.hero-card .title {
+  margin: 5px 0;
+}
+
+.hero-card .title h1 {
+  display: inline-block;
+
+  margin: 0 3px;
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.hero-card .title h1::first-letter {
+  color: #29779B;
+}
+
+.hero-card .content {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.hero-card .content span {
+  display: block;
+  color: #222222;
+}
+
+.hero-card .content span a, .hero-card .content span a:visited {
+  color: #222222;
+  text-decoration: none;
+}
+
+.hero-card .content span a:hover {
+  color: #29779B;
+  text-decoration: underline;
+}
+
+.hero-card .content span a:active {
+  text-decoration: underline;
+}
+
+.call-to-scroll {
+  position: absolute;
+  bottom: 0;
+
+  color: #EEEEEE;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+.call-to-scroll {
+  font-size: 5em;
+  cursor: none;
+  pointer-events: none;
 }
