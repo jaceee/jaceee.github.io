@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeroComponent implements OnInit {
 
   public scrolled = false;
+  public cardIsOpen = false;
 
   constructor() { }
 
@@ -16,6 +17,10 @@ export class HeroComponent implements OnInit {
 
   public didScroll() {
     this.scrolled = true;
+  }
+
+  public openCard() {
+    this.cardIsOpen = !this.cardIsOpen;
   }
 
 }

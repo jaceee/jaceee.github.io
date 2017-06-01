@@ -2,6 +2,9 @@
   display: -webkit-flex;
   display: flex;
 
+  position: relative;
+  perspective: 800px;
+
   width: 100%;
   height: 100vh;
 
@@ -19,22 +22,57 @@
 }
 
 .hero-card {
-  /*width: 400px;*/
+  transform-style: preserve-3d;
+
+  transition: transform 700ms;
+  transition-timing-function: cubic-bezier(0.000, 1.310, 0.740, 0.985);
 }
 
-.hero-card {
+.hero-card.closed {
+  transform: rotateY(180deg);
+}
+
+.card-wrapper:hover .hero-card.closed {
+  transform: rotateY(180deg) translateZ(-80px);
+}
+
+.hero-card.opened {
+  transform: rotateY(0) translateZ(50px);
+}
+
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-color: #444444;
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/51TxXo0RLgL.png');
+  background-repeat: no-repeat;
+  background-size: auto 65%;
+  background-position: center;
+
+  -moz-box-shadow:    0 0 30px rgba(60, 175, 185, 0.4);
+  -webkit-box-shadow: 0 0 30px rgba(60, 175, 185, 0.4);
+  box-shadow:         0 0 30px rgba(60, 175, 185, 0.4);
+
+  backface-visibility: hidden;
+  transform: translateZ(-1px) rotateY( 180deg );
+}
+
+.card-front {
   text-align: center;
+  backface-visibility: hidden;
 }
 
-.hero-card md-card-content {
+.card-front md-card-content {
   padding: 25px;
 }
 
-.hero-card .title {
+.card-front .title {
   margin: 5px 0;
 }
 
-.hero-card .title h1 {
+.card-front .title h1 {
   display: inline-block;
 
   margin: 0 3px;
@@ -45,32 +83,32 @@
   color: #222222;
 }
 
-.hero-card .title h1::first-letter {
+.card-front .title h1::first-letter {
   color: #29779B;
 }
 
-.hero-card .content {
+.card-front .content {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.2em;
   line-height: 1.5em;
 }
 
-.hero-card .content span {
+.card-front .content span {
   display: block;
   color: #222222;
 }
 
-.hero-card .content span a, .hero-card .content span a:visited {
+.card-front .content span a, .card-front .content span a:visited {
   color: #222222;
   text-decoration: none;
 }
 
-.hero-card .content span a:hover {
+.card-front .content span a:hover {
   color: #29779B;
   text-decoration: underline;
 }
 
-.hero-card .content span a:active {
+.card-front .content span a:active {
   text-decoration: underline;
 }
 
