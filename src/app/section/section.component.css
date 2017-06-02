@@ -1,0 +1,31 @@
+.section {
+  visibility: hidden;
+}
+
+.section.animated {
+  visibility: visible;
+}
+
+:host:nth-child(odd) .section {
+  text-align: left;
+  padding-left: 15%;
+}
+
+:host:nth-child(even) .section {
+  text-align: right;
+  padding-right: 15%;
+}
+
+.section-heading {
+  margin: 20px 0;
+}
+
+.section-heading md-icon {
+  width: 48px;
+  height: 48px;
+  font-size: 3em;
+}
+
+.section-heading h1 {
+  margin: 0;
+}

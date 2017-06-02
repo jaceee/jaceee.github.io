@@ -12,3 +12,13 @@ body {
   font-family: Roboto, sans-serif;
   color: #222222;
 }
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+h1::first-letter {
+  color: #29779B;
+}

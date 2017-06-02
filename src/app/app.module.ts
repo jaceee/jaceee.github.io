@@ -9,10 +9,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
+import { ScrollSpyModule } from 'ngx-scrollspy';
+
 import { AppComponent } from './app.component';
-// import { BackgroundComponent } from './background/background.component';
 import { LanguageSelectorComponent } from './language-selector/language-selector.component';
 import { HeroComponent } from './hero/hero.component';
+import { SectionComponent } from './section/section.component';
 
 export function HttpLoaderFactory(http: Http) {
     return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -21,9 +23,9 @@ export function HttpLoaderFactory(http: Http) {
 @NgModule({
   declarations: [
     AppComponent,
-    // BackgroundComponent,
     LanguageSelectorComponent,
     HeroComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +33,7 @@ export function HttpLoaderFactory(http: Http) {
     HttpModule,
     MaterialModule,
     BrowserAnimationsModule,
+    ScrollSpyModule.forRoot(),
     TranslateModule.forRoot({
         loader: {
             provide: TranslateLoader,

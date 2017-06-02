@@ -76,17 +76,8 @@
 
 .card-front .title h1 {
   display: inline-block;
-
   margin: 0 3px;
-
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.8em;
-  text-transform: uppercase;
   color: #222222;
-}
-
-.card-front .title h1::first-letter {
-  color: #29779B;
 }
 
 .card-front .content {
