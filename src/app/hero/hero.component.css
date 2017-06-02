@@ -62,6 +62,8 @@
 .card-front {
   text-align: center;
   backface-visibility: hidden;
+
+  background-color: #EEEEEE;
 }
 
 .card-front md-card-content {

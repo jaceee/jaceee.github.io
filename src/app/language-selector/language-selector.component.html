@@ -1,0 +1,19 @@
+<div class="container" [ngClass]="{
+  'active': isOpen
+}">
+  <a class="toggler" href="#" (click)="toggle()">
+    <md-icon color="accent">language</md-icon>
+  </a>
+  <ul>
+    <li [ngClass]="{
+      'active': currentLang == 'en'
+    }">
+      <a href="#" (click)="setLanguage('en')">EN</a>
+    </li>
+    <li [ngClass]="{
+      'active': currentLang == 'es'
+    }">
+      <a href="#" (click)="setLanguage('es')">ES</a>
+    </li>
+  </ul>
+</div>

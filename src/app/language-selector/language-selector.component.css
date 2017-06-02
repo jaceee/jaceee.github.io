@@ -1,0 +1,62 @@
+.container {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-align-items: center;
+  align-items:         center;
+
+  position: fixed;
+  top: 50px;
+  right: -60px;
+
+  padding: 5px;
+
+  background-color: rgba(0, 0, 0, 0.8);
+
+  border-radius: 3px;
+
+  z-index: 999;
+
+  transition: right 300ms;
+}
+
+.container.active {
+  right: 0px;
+}
+
+.container a {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+.container a:visited {
+  color: #DDDDDD;
+}
+
+.container a:hover {
+  color: #FFFFFF;
+}
+
+.container .toggler {
+  display: inline-block;
+  padding: 5px;
+}
+
+.container ul {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.container ul li {
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.container ul li.active a {
+  text-decoration: underline;
+}
+
+.container ul li a:hover {
+  text-decoration: underline;
+}
