@@ -3,5 +3,20 @@
 <app-hero></app-hero>
 <div class="main-wrapper">
   <div class="inner-wrapper">
+    <app-section
+      [icon]="'account_circle'"
+      [data]="'RESUMEN'">
+    </app-section>
+    <app-section
+      [icon]="'build'"
+      [data]="'HABILIDADES'">
+    </app-section>
+    <app-project-list
+      [icon]="'work'"
+      [data]="'PROYECTOS'">
+    </app-project-list>
+    <app-footer
+      [data]="'FOOTER'">
+    </app-footer>
   </div>
 </div>

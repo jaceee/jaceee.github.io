@@ -1,5 +1,26 @@
 {
   "RESUMEN": {
-    "TITULO": "Summary"
-  }
+    "TITULO": "Summary",
+    "CONTENIDO": "<p>I am a self-taught fast-paced learner with experience crafting production software. On my free time I enjoy playing videogames, learning about history, cultures and languages, embrace nature and explore and learn new tecnologies reading documentation and following quickstarts.</p><p>I have working knowledge on development, operations and automatization; unix systems and the command line interface usage; multiple programming languages and frameworks; software world trends; and more.</p><p>I have a good english level and I am able to easily read and understand technical documentation. I have experience using project management systems like <a href=\"http://www.redmine.org/\" target=\"_blank\">Redmine</a>, <a href=\"https://git-scm.com/\" target=\"_blank\">git</a> and <a href=\"https://slack.com/\" target=\"_blank\">slack</a>. Between my favorite tools I count <a href=\"https://www.docker.com/\" target=\"_blank\">Docker</a>, <a href=\"https://www.xamarin.com/\" target=\"_blank\">Xamarin</a>, <a href=\"https://golang.org/\" target=\"_blank\">Go</a>, <a href=\"https://es.wikipedia.org/wiki/Swift_(lenguaje_de_programaci%C3%B3n)\" target=\"_blank\">Swift</a>, <a href=\"https://angular.io/\" target=\"_blank\">Angular</a>, <a href=\"https://es.wikipedia.org/wiki/HTML5\" target=\"_blank\">HTML5</a>+<a href=\"https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada#CSS3\" target=\"_blank\">CSS3</a>, <a href=\"https://atom.io/\" target=\"_blank\">Atom</a>, <a href=\"https://about.gitlab.com/\" target=\"_blank\">GitLab</a>, <a href=\"http://www.redmine.org/\" target=\"_blank\">Redmine</a>, <a href=\"https://slack.com/\" target=\"_blank\">slack</a> and <a href=\"https://coreos.com/\" target=\"_blank\">CoreOS</a>.</p>"
+  },
+  "HABILIDADES": {
+    "TITULO": "Skills",
+    "CONTENIDO": "<ul><li>Full Stack Web Development.</li><li>Experience using Docker and Docker Compose.</li><li>Mobile Development.</li><li>Experience working with Git.</li><li>Experience using automation tools.</li><li>Complex problem solving.</li><li>Fast-paced learning.</li></ul>"
+  },
+  "PROYECTOS": {
+    "TITULO": "Projects",
+    "CONTENIDO": {
+      "1": {
+        "TITULO": "DynaApp 3",
+        "CONTENIDO": "<small><a href=\"https://itunes.apple.com/co/app/dynaapp-3/id1173098869\" target=\"_blank\">App Store</a></small><p>Dyna & Cia S.A.'s commercial management system.</p><div class=\"gallery row\"><ul><li><a href=\"assets/img/dyna1.jpg\" target=\"_blank\"><img src=\"assets/img/dyna1.jpg\"></a></li><li><a href=\"assets/img/dyna2.jpg\" target=\"_blank\"><img src=\"assets/img/dyna2.jpg\"></a></li></ul></div><small><strong>Used techs:</strong> Xcode, Swift, Cocoapods, Fastlane.</small>"
+      },
+      "2": {
+        "TITULO": "Virtual Tour",
+        "CONTENIDO": "<small><a href=\"https://play.google.com/store/apps/details?id=com.mallacreativa.virtualtour\" target=\"_blank\">Google Play</a></small><p>Tourism and navigation virtual assistant.</p><div class=\"gallery row\"><ul><li><a href=\"assets/img/vt1.png\" target=\"_blank\"><img src=\"assets/img/vt1.png\"></a></li><li><a href=\"assets/img/vt2.png\" target=\"_blank\"><img src=\"assets/img/vt2.png\"></a></li></ul></div><small><strong>Used techs:</strong> Visual Studio, Xamarin, C#, SQLite, Atom, Golang, Docker, Docker Compose, PostgreSQL, Redis, OSRM, Nginx, Angular 4.</small>"
+      }
+    }
+  },
+  "FOOTER": "Want more info? Use the links on the card at the top of the page, I will gladly attend.",
+  "KO_FI": "Buy me a Coffee",
+  "TO_TOP": "Return to Top"
 }
