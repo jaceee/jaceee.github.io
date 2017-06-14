@@ -1,0 +1,12 @@
+button {
+  display: block;
+  margin: 25px auto;
+}
+
+button[md-raised-button] {
+  color: #DDD;
+}
+
+button i {
+  margin-right: 12px;
+}

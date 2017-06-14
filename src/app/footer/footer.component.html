@@ -1,0 +1,9 @@
+<div class="row section" [ngClass]="{'fadeInUp animated': shown}" scrollSpy>
+  <div class="col">
+    <div class="section-content">
+      <p translate>{{ data }}</p>
+      <button md-raised-button (click)="kofi()"><i class="fa fa-coffee"></i><span translate>KO_FI</span></button>
+      <button md-button (click)="toTop()"><span translate>TO_TOP</span></button>
+    </div>
+  </div>
+</div>
