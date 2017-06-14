@@ -105,6 +105,12 @@
   text-decoration: underline;
 }
 
+.card-front .content .social {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  word-spacing: 15px;
+}
+
 .call-to-scroll {
   position: absolute;
   bottom: 0;
