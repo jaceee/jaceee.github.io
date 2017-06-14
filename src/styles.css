@@ -10,6 +10,7 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
   color: #222222;
 }
 
@@ -21,4 +22,19 @@ h1 {
 
 h1::first-letter {
   color: #29779B;
+}
+
+a, a:visited {
+  color: #29779B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #29779B;
+  text-decoration: underline;
+}
+
+ul li {
+  margin: 5px;
+  list-style-type: square;
 }

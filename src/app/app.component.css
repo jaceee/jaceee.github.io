@@ -1,9 +1,6 @@
-.main-wrapper {
-  height: 5000px;
-}
-
 .inner-wrapper {
-  max-width: 1200px;
+  max-width: 900px;
+  width: 80%;
   margin: 0 auto;
 
   padding: 25px 0;

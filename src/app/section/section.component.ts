@@ -27,7 +27,7 @@ export class SectionComponent implements AfterViewInit {
         return;
       }
       var percent = this.element.nativeElement.getBoundingClientRect().top / window.innerHeight;
-      if (percent <= 0.6) {
+      if (percent <= 1) {
         this.shown = true;
       }
 		});
