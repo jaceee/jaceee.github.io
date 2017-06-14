@@ -1,0 +1,15 @@
+<div class="row section" [ngClass]="{'fadeInUp animated': shown}" scrollSpy>
+  <div class="col">
+    <div class="section-heading">
+      <md-icon>{{ icon }}</md-icon>
+      <h1 translate>{{ data }}.TITULO</h1>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="section-content">
+      <app-project [data]="data + '.CONTENIDO.1'"></app-project>
+      <app-project [data]="data + '.CONTENIDO.2'"></app-project>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+.project {
+  margin-bottom: 80px;
+}
+
+:host >>> .gallery ul {
+  height: 350px;
+  padding: 10px;
+
+  list-style: none;
+
+  background-color: rgba(100, 100, 100, 0.1);
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  white-space: nowrap;
+}
+
+:host >>> .gallery ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+:host >>> .gallery ul li img {
+  height: 330px;
+  width: auto;
+}
