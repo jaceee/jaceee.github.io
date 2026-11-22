@@ -31,11 +31,12 @@ export async function check() {
 function fadeTo(v, ms, done) {
   cancelAnimationFrame(fadeRaf);
   if (!el) return;
-  if (reduced() || ms <= 0) { el.volume = v; if (done) done(); return; }
+  const clamp = (x) => Math.max(0, Math.min(1, x));
+  if (reduced() || ms <= 0) { el.volume = clamp(v); if (done) done(); return; }
   const from = el.volume, t0 = performance.now();
   const step = (t) => {
     const k = Math.min(1, (t - t0) / ms);
-    el.volume = from + (v - from) * k;
+    el.volume = clamp(from + (v - from) * k);
     if (k < 1) fadeRaf = requestAnimationFrame(step); else if (done) done();
   };
   fadeRaf = requestAnimationFrame(step);
@@ -57,14 +58,15 @@ function ensure() {
 // Returns true if playback started. Rejection (autoplay policy) leaves `wanted` true so a later gesture can retry.
 export async function play() {
   wanted = true; store('on');
-  if (!(await check())) { wanted = false; return false; }
-  const a = ensure();
+  if (available === false) { wanted = false; return false; }
+  const a = ensure(); // no await before play(): keep the user gesture alive (WebKit)
   try {
     await a.play();
+    available = true;
     fadeTo(TARGET_VOLUME, FADE_MS);
     emit();
     return true;
-  } catch (_) { emit(); return false; }
+  } catch (_) { if (available === false) wanted = false; emit(); return false; }
 }
 
 export function mute() {

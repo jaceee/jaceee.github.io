@@ -18,7 +18,8 @@ async function loadExperience() {
   document.body.className = 'exp';
   document.body.replaceChildren(...doc.body.childNodes);
   history.pushState({ exp: 1 }, '', '/experience/');
-  window.addEventListener('popstate', () => location.reload());
+  // Hash changes between scenes also fire popstate: only reload when Back leaves /experience/ (to Inicio).
+  window.addEventListener('popstate', () => { if (location.pathname !== '/experience/') location.reload(); });
   await import('/assets/js/experience.js');
 }
 
