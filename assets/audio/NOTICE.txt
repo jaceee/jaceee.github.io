@@ -1,0 +1,7 @@
+Audio notice
+
+The ambient audio loop used by this site (assets/audio/ambient.mp3, when present) is
+All rights reserved.
+
+It was generated with Eleven Music. It is not licensed for reuse, redistribution or
+republication by third parties.

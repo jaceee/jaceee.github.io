@@ -1,0 +1,586 @@
+{
+ "work": {
+  "id": "work",
+  "focus": "workstate",
+  "highlight": "focus",
+  "spine": [
+   "workstate",
+   "bairesdev",
+   "teravision",
+   "agrolevels",
+   "area-movil",
+   "malla-creativa",
+   "navacom",
+   "freelance"
+  ],
+  "columns": [
+   {
+    "label": "What I built",
+    "x": 20,
+    "w": 112,
+    "align": "right",
+    "color": "#F2C6A0"
+   },
+   {
+    "label": "Where",
+    "x": 145,
+    "w": 100,
+    "align": "center",
+    "color": "#A9B8FF"
+   },
+   {
+    "label": "With",
+    "x": 258,
+    "w": 112,
+    "align": "left",
+    "color": "#9FE0D0"
+   }
+  ],
+  "kickers": {
+   "where": "Where",
+   "what": "What I built",
+   "with": "With"
+  },
+  "seenLabel": "Seen at",
+  "backLabel": "Map",
+  "nodes": [
+   {
+    "id": "workstate",
+    "col": "where",
+    "label": "Workstate",
+    "title": "Workstate",
+    "period": "Mar 2026 — now",
+    "role": "Platform engineer",
+    "text": "I build the platform other engineering teams build on. Go services on AWS and Kubernetes, infrastructure in CloudFormation, builds with Bazel.",
+    "x": 195,
+    "y": 150
+   },
+   {
+    "id": "bairesdev",
+    "col": "where",
+    "label": "BairesDev",
+    "title": "BairesDev",
+    "period": "Dec 2021 — Jul 2025",
+    "role": "Cloud software developer",
+    "text": "Led backend development for cloud-native applications built on microservices and event-driven architectures. Contributed to product launches such as Roava, a fintech, and Complex. Designed proofs of concept for virtualization and virtual networking, and made infrastructure more reliable and scalable by reworking it in Terraform and Kubernetes.",
+    "x": 207,
+    "y": 230
+   },
+   {
+    "id": "teravision",
+    "col": "where",
+    "label": "Teravision",
+    "title": "Teravision",
+    "period": "Dec 2020 — Nov 2021",
+    "role": "Full stack developer",
+    "text": "Built and maintained backend APIs and frontend interfaces, improved the team’s workflow with test automation and deployment pipelines, and wired alerting and monitoring for production support.",
+    "x": 187,
+    "y": 310
+   },
+   {
+    "id": "agrolevels",
+    "col": "where",
+    "label": "AgroLevels",
+    "title": "AgroLevels",
+    "period": "May 2018 — Nov 2020",
+    "role": "Software developer",
+    "text": "Developed spatial data services, plus Android and iOS clients and the backend APIs behind real-time GIS tracking. Cut infrastructure cost by half with a leaner cloud architecture.",
+    "x": 203,
+    "y": 390
+   },
+   {
+    "id": "area-movil",
+    "col": "where",
+    "label": "Área Móvil",
+    "title": "Área Móvil",
+    "period": "Feb 2018 — Apr 2018",
+    "role": "Mobile developer",
+    "text": "Built chat features for iOS and kept the build and release pipelines running.",
+    "x": 185,
+    "y": 470
+   },
+   {
+    "id": "malla-creativa",
+    "col": "where",
+    "label": "Malla Creativa",
+    "title": "Malla Creativa",
+    "period": "Aug 2016 — May 2018",
+    "role": "Software developer",
+    "text": "Led mobile development for georeferenced apps, and built the map and routing front ends that went with them.",
+    "x": 201,
+    "y": 550
+   },
+   {
+    "id": "navacom",
+    "col": "where",
+    "label": "Navacom",
+    "title": "Soluciones Navacom",
+    "period": "Nov 2015 — Jul 2016",
+    "role": "Software developer",
+    "text": "Introduced company-wide DevOps workflows, CI/CD and containers, and built internal APIs and tools to streamline mobile deployments.",
+    "x": 189,
+    "y": 630
+   },
+   {
+    "id": "freelance",
+    "col": "where",
+    "label": "Freelance",
+    "title": "Independent work",
+    "period": "Before 2015",
+    "role": "Freelance",
+    "text": "Paid projects since my teens: websites, custom software, IT support and networking, running private game servers, and control software for devices designed by electronics engineers.",
+    "x": 197,
+    "y": 710
+   },
+   {
+    "id": "dev-platforms",
+    "col": "what",
+    "label": "Developer\nplatforms",
+    "x": 118,
+    "y": 170
+   },
+   {
+    "id": "ai-agents",
+    "col": "what",
+    "label": "AI agents",
+    "x": 132,
+    "y": 256
+   },
+   {
+    "id": "event-driven",
+    "col": "what",
+    "label": "Event-driven\nsystems",
+    "x": 118,
+    "y": 342
+   },
+   {
+    "id": "virtualization",
+    "col": "what",
+    "label": "Virtualization\n& networking",
+    "x": 132,
+    "y": 428
+   },
+   {
+    "id": "web-apps",
+    "col": "what",
+    "label": "Web apps",
+    "x": 118,
+    "y": 514
+   },
+   {
+    "id": "geospatial",
+    "col": "what",
+    "label": "Geospatial",
+    "x": 132,
+    "y": 600
+   },
+   {
+    "id": "mobile-apps",
+    "col": "what",
+    "label": "Mobile apps",
+    "x": 118,
+    "y": 686
+   },
+   {
+    "id": "claude",
+    "col": "with",
+    "label": "Claude",
+    "x": 272,
+    "y": 160
+   },
+   {
+    "id": "bazel",
+    "col": "with",
+    "label": "Bazel",
+    "x": 258,
+    "y": 220
+   },
+   {
+    "id": "cloudformation",
+    "col": "with",
+    "label": "CloudFormation",
+    "x": 272,
+    "y": 280
+   },
+   {
+    "id": "lambda",
+    "col": "with",
+    "label": "AWS Lambda",
+    "x": 258,
+    "y": 340
+   },
+   {
+    "id": "go",
+    "col": "with",
+    "label": "Go",
+    "x": 272,
+    "y": 400
+   },
+   {
+    "id": "kubernetes",
+    "col": "with",
+    "label": "Kubernetes",
+    "x": 258,
+    "y": 460
+   },
+   {
+    "id": "nats",
+    "col": "with",
+    "label": "NATS",
+    "x": 272,
+    "y": 520
+   },
+   {
+    "id": "libvirt-ovn",
+    "col": "with",
+    "label": "libvirt + OVN",
+    "x": 258,
+    "y": 580
+   },
+   {
+    "id": "terraform",
+    "col": "with",
+    "label": "Terraform",
+    "x": 272,
+    "y": 640
+   },
+   {
+    "id": "postgis",
+    "col": "with",
+    "label": "PostGIS",
+    "x": 258,
+    "y": 700
+   }
+  ],
+  "edges": [
+   [
+    "workstate",
+    "dev-platforms"
+   ],
+   [
+    "workstate",
+    "ai-agents"
+   ],
+   [
+    "workstate",
+    "event-driven"
+   ],
+   [
+    "workstate",
+    "claude"
+   ],
+   [
+    "workstate",
+    "bazel"
+   ],
+   [
+    "workstate",
+    "cloudformation"
+   ],
+   [
+    "workstate",
+    "lambda",
+    {
+     "inferida": true
+    }
+   ],
+   [
+    "workstate",
+    "go"
+   ],
+   [
+    "workstate",
+    "kubernetes"
+   ],
+   [
+    "bairesdev",
+    "event-driven"
+   ],
+   [
+    "bairesdev",
+    "virtualization"
+   ],
+   [
+    "bairesdev",
+    "lambda",
+    {
+     "inferida": true
+    }
+   ],
+   [
+    "bairesdev",
+    "go"
+   ],
+   [
+    "bairesdev",
+    "kubernetes"
+   ],
+   [
+    "bairesdev",
+    "nats"
+   ],
+   [
+    "bairesdev",
+    "libvirt-ovn"
+   ],
+   [
+    "bairesdev",
+    "terraform"
+   ],
+   [
+    "teravision",
+    "web-apps"
+   ],
+   [
+    "teravision",
+    "lambda",
+    {
+     "inferida": true
+    }
+   ],
+   [
+    "agrolevels",
+    "geospatial"
+   ],
+   [
+    "agrolevels",
+    "mobile-apps"
+   ],
+   [
+    "agrolevels",
+    "go"
+   ],
+   [
+    "agrolevels",
+    "kubernetes"
+   ],
+   [
+    "agrolevels",
+    "postgis"
+   ],
+   [
+    "area-movil",
+    "mobile-apps"
+   ],
+   [
+    "malla-creativa",
+    "web-apps"
+   ],
+   [
+    "malla-creativa",
+    "geospatial"
+   ],
+   [
+    "malla-creativa",
+    "mobile-apps"
+   ],
+   [
+    "malla-creativa",
+    "go"
+   ],
+   [
+    "navacom",
+    "dev-platforms",
+    {
+     "inferida": true
+    }
+   ],
+   [
+    "navacom",
+    "mobile-apps"
+   ],
+   [
+    "freelance",
+    "web-apps"
+   ]
+  ]
+ },
+ "beyond": {
+  "id": "beyond",
+  "focus": null,
+  "highlight": "all",
+  "spine": [
+   "philosophy",
+   "onfray",
+   "neuroscience",
+   "psychology",
+   "biology",
+   "linguistics",
+   "stem",
+   "games"
+  ],
+  "columns": [
+   {
+    "label": "What I’m into",
+    "x": 20,
+    "w": 112,
+    "align": "right",
+    "color": "#F2C6A0"
+   },
+   {
+    "label": "What I build",
+    "x": 135,
+    "w": 120,
+    "align": "center",
+    "color": "#A9B8FF"
+   },
+   {
+    "label": "With",
+    "x": 258,
+    "w": 112,
+    "align": "left",
+    "color": "#9FE0D0"
+   }
+  ],
+  "kickers": {
+   "what": "What I’m into",
+   "where": "What I build",
+   "with": "With"
+  },
+  "seenLabel": "Seen in",
+  "backLabel": "Beyond work",
+  "nodes": [
+   {
+    "id": "philosophy",
+    "col": "what",
+    "label": "Philosophy\n& consciousness",
+    "x": 118,
+    "y": 160,
+    "text": "I read about philosophy of mind, neuroscience, psychology, biology and linguistics, and most things STEM."
+   },
+   {
+    "id": "onfray",
+    "col": "what",
+    "label": "Onfray",
+    "x": 132,
+    "y": 238
+   },
+   {
+    "id": "neuroscience",
+    "col": "what",
+    "label": "Neuroscience",
+    "x": 118,
+    "y": 316,
+    "text": "I read about philosophy of mind, neuroscience, psychology, biology and linguistics, and most things STEM."
+   },
+   {
+    "id": "psychology",
+    "col": "what",
+    "label": "Psychology",
+    "x": 132,
+    "y": 394,
+    "text": "I read about philosophy of mind, neuroscience, psychology, biology and linguistics, and most things STEM."
+   },
+   {
+    "id": "biology",
+    "col": "what",
+    "label": "Biology",
+    "x": 118,
+    "y": 472,
+    "text": "I read about philosophy of mind, neuroscience, psychology, biology and linguistics, and most things STEM."
+   },
+   {
+    "id": "linguistics",
+    "col": "what",
+    "label": "Linguistics",
+    "x": 132,
+    "y": 550,
+    "text": "I read about philosophy of mind, neuroscience, psychology, biology and linguistics, and most things STEM."
+   },
+   {
+    "id": "stem",
+    "col": "what",
+    "label": "STEM",
+    "x": 118,
+    "y": 628,
+    "text": "I read about philosophy of mind, neuroscience, psychology, biology and linguistics, and most things STEM."
+   },
+   {
+    "id": "games",
+    "col": "what",
+    "label": "Games",
+    "x": 132,
+    "y": 706,
+    "text": "I play Minecraft the technical way, and League of Legends."
+   },
+   {
+    "id": "eudaimonismo",
+    "col": "where",
+    "label": "Eudaimonismo\nModerno",
+    "title": "Eudaimonismo Moderno",
+    "x": 195,
+    "y": 240,
+    "hub": true,
+    "text": "An ethical framework for flourishing and enjoyment, grounded in philosophy and neuroscience."
+   },
+   {
+    "id": "second-brain",
+    "col": "where",
+    "label": "Second brain",
+    "title": "Second brain",
+    "x": 195,
+    "y": 440,
+    "hub": true,
+    "text": "A personal knowledge system operated through an AI assistant."
+   },
+   {
+    "id": "redstone",
+    "col": "where",
+    "label": "Redstone Atelier",
+    "title": "Redstone Atelier",
+    "x": 195,
+    "y": 640,
+    "hub": true,
+    "text": "Tools for designing redstone machines in Minecraft, with an AI assistant in the loop."
+   },
+   {
+    "id": "postgres",
+    "col": "with",
+    "label": "Postgres",
+    "x": 272,
+    "y": 400
+   },
+   {
+    "id": "claude-b",
+    "col": "with",
+    "label": "Claude",
+    "x": 258,
+    "y": 520
+   }
+  ],
+  "edges": [
+   [
+    "eudaimonismo",
+    "philosophy"
+   ],
+   [
+    "eudaimonismo",
+    "onfray"
+   ],
+   [
+    "eudaimonismo",
+    "neuroscience"
+   ],
+   [
+    "eudaimonismo",
+    "psychology"
+   ],
+   [
+    "second-brain",
+    "postgres"
+   ],
+   [
+    "second-brain",
+    "claude-b"
+   ],
+   [
+    "redstone",
+    "games"
+   ],
+   [
+    "redstone",
+    "claude-b"
+   ]
+  ]
+ }
+}
