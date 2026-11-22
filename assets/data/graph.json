@@ -279,10 +279,7 @@
    ],
    [
     "workstate",
-    "lambda",
-    {
-     "inferida": true
-    }
+    "lambda"
    ],
    [
     "workstate",
@@ -302,10 +299,7 @@
    ],
    [
     "bairesdev",
-    "lambda",
-    {
-     "inferida": true
-    }
+    "lambda"
    ],
    [
     "bairesdev",
@@ -333,10 +327,7 @@
    ],
    [
     "teravision",
-    "lambda",
-    {
-     "inferida": true
-    }
+    "lambda"
    ],
    [
     "agrolevels",
