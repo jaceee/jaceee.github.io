@@ -1,4 +1,5 @@
 import * as sound from './audio.js';
+import './nav.js';
 
 // Choosing "Enter with sound" is the user gesture: start the loop in this very click and load the
 // Experience into this same document (no navigation), so the browser never blocks the audio.
@@ -20,11 +21,6 @@ async function loadExperience() {
   history.pushState({ exp: 1 }, '', '/experience/');
   await import('/assets/js/experience.js');
 }
-
-// Back/Forward: reload only when the URL no longer matches what is on screen (hash changes between scenes keep the path).
-window.addEventListener('popstate', () => {
-  if ((location.pathname === '/experience/') !== document.body.classList.contains('exp')) location.reload();
-});
 
 if (enter) {
   enter.addEventListener('click', (ev) => {

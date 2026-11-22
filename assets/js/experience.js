@@ -1,6 +1,7 @@
 import { renderMap, renderNode, byId } from './graph.js';
 import * as sound from './audio.js';
 import './cv.js';
+import './nav.js';
 
 const viewport = document.getElementById('viewport');
 const stage = document.getElementById('stage');
