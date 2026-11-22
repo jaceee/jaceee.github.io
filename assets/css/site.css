@@ -55,6 +55,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 .read h2{margin:0;font-family:var(--mono);font-weight:500;font-size:12px;line-height:16px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
 .read p.body{margin:0;font-size:19px;line-height:31px;color:var(--ink2);text-wrap:pretty}
 .read p.body.dim{color:var(--ink3)}
+[hidden]{display:none!important}
 .textlink{align-self:flex-start;display:inline-flex;align-items:center;min-height:44px;font-size:15px;color:var(--ink2);text-decoration:underline;text-underline-offset:4px}
 .jobs{gap:28px!important}
 .job{display:flex;flex-wrap:wrap;gap:8px 32px;border-top:1px solid var(--line);padding-top:24px}
