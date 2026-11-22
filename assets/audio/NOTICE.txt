@@ -1,7 +1,12 @@
 Audio notice
 
-The ambient audio loop used by this site (assets/audio/ambient.mp3, when present) is
+The ambient audio loop used by this site (assets/audio/ambient.mp3) is
 All rights reserved.
 
 It was generated with Eleven Music. It is not licensed for reuse, redistribution or
-republication by third parties.
+republication by third parties. It is excluded from any license that covers this
+repository's code.
+
+The file is a 59-bar loop (177 s at 80 BPM): the first 1.5 s is an equal-power
+crossfade from the music that continues after the loop's end, so the last sample
+flows into the first without a seam.
