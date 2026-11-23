@@ -158,15 +158,25 @@ export function renderNode(host, g, id, { onOpen, backHref }) {
   }
   host.appendChild(panel);
 
-  // "Earlier: X" for companies, following the chronological spine.
+  // "Later: X" / "Earlier: X" for companies, following the chronological spine.
   if (g.id === 'work' && n.col === 'where') {
     const i = g.spine.indexOf(n.id);
-    const nextId = g.spine[i + 1];
-    if (nextId) {
-      const nx = m.get(nextId);
-      const a = navLink('#node/' + g.id + '/' + nextId, 'Earlier: ' + (nx.label), 'right');
-      a.classList.add('earlier');
-      host.appendChild(a);
+    const laterId = i > 0 ? g.spine[i - 1] : null;
+    const earlierId = i >= 0 ? g.spine[i + 1] : null;
+    if (laterId || earlierId) {
+      const wrap = document.createElement('div');
+      wrap.className = 'siblings';
+      if (laterId) {
+        const a = navLink('#node/' + g.id + '/' + laterId, 'Later: ' + plain(m.get(laterId).label), 'left');
+        a.classList.add('later');
+        wrap.appendChild(a);
+      }
+      if (earlierId) {
+        const a = navLink('#node/' + g.id + '/' + earlierId, 'Earlier: ' + plain(m.get(earlierId).label), 'right');
+        a.classList.add('earlier');
+        wrap.appendChild(a);
+      }
+      host.appendChild(wrap);
     }
   }
   return n;

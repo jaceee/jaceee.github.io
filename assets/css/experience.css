@@ -72,7 +72,8 @@ body.exp{overflow:hidden;height:100vh;height:100dvh}
 .seen{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .seen button{width:100%;min-height:44px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0;background:none;border:0;border-bottom:1px solid var(--line);color:var(--ink);font:500 15px var(--sans);text-align:left;cursor:pointer}
 .seen button span{font:400 12px var(--mono);color:var(--ink4)}
-.earlier{position:absolute;left:186px;top:766px;width:180px;justify-content:flex-end}
+.siblings{position:absolute;left:24px;right:24px;top:766px;height:44px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.siblings .earlier{margin-left:auto}
 .panel .text+.seenhead{margin-top:20px}
 
 @media (prefers-reduced-motion:reduce){

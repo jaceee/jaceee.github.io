@@ -371,10 +371,7 @@
    ],
    [
     "navacom",
-    "dev-platforms",
-    {
-     "inferida": true
-    }
+    "dev-platforms"
    ],
    [
     "navacom",
