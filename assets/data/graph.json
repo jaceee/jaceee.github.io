@@ -62,7 +62,7 @@
     "title": "BairesDev",
     "period": "Dec 2021 — Jul 2025",
     "role": "Cloud software developer",
-    "text": "Led backend development for cloud-native applications built on microservices and event-driven architectures. Contributed to product launches such as Roava, a fintech, and Complex. Designed proofs of concept for virtualization and virtual networking, and made infrastructure more reliable and scalable by reworking it in Terraform and Kubernetes.",
+    "text": "Led backend development for cloud-native applications built on microservices and event-driven architectures. Contributed to product launches such as Roava, a fintech, and Complex. Made infrastructure more reliable and scalable by reworking it in Terraform and Kubernetes.",
     "x": 207,
     "y": 230
    },
@@ -154,13 +154,6 @@
     "y": 342
    },
    {
-    "id": "virtualization",
-    "col": "what",
-    "label": "Virtualization\n& networking",
-    "x": 132,
-    "y": 428
-   },
-   {
     "id": "web-apps",
     "col": "what",
     "label": "Web apps",
@@ -231,13 +224,6 @@
     "y": 520
    },
    {
-    "id": "libvirt-ovn",
-    "col": "with",
-    "label": "libvirt + OVN",
-    "x": 258,
-    "y": 580
-   },
-   {
     "id": "terraform",
     "col": "with",
     "label": "Terraform",
@@ -295,10 +281,6 @@
    ],
    [
     "bairesdev",
-    "virtualization"
-   ],
-   [
-    "bairesdev",
     "lambda"
    ],
    [
@@ -312,10 +294,6 @@
    [
     "bairesdev",
     "nats"
-   ],
-   [
-    "bairesdev",
-    "libvirt-ovn"
    ],
    [
     "bairesdev",
